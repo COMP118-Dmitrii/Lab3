@@ -7,9 +7,9 @@
  *                   the code with a comment on the fix you did
  *                3) There are a three functions that are not completed, you need to
  *                   complete them and also update the menu and the main function
- *  \author    Harald Gjermundrod
+ *  \author    Dmitrii Frolov 
  *  \version   0.1
- *  \date      2017-2017
+ *  \date      2022
  *  \bug       Many logical bugs
  *  \copyright University of Nicosia.
  */
@@ -139,7 +139,7 @@ void multArrays(const int arrQuantity[], const int arrPrice[], int arrTotal[], c
  * @param size The size of the array.
  */
 void displayArray(const int arr[], const int size) {
-	int sum;
+	int sum = 0;
 
 	for (int i = 1; i < size; ++i) {
 		cout << "\nValue at " << i << ": " << arr[i];
